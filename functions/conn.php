@@ -4,8 +4,6 @@
 $conn = mysqli_connect("localhost","root","","inventaris-main");
 
 
-
-
 function viewData($query, $loopable = false){
     global $conn;    
     $result = mysqli_query($conn, $query);
